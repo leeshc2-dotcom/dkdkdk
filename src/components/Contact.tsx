@@ -20,7 +20,7 @@ export default function Contact() {
         <h2 className="text-sm font-mono uppercase tracking-[0.25em] text-orange-400 font-bold mb-4 -translate-x-4">
           문의하기 (Contact Us)
         </h2>
-        <p className="text-3xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-tight">
+        <p className="text-2xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.3] sm:leading-tight break-keep">
           따뜻한 이야기가 시작되는 곳
         </p>
         <p className="mt-5 text-slate-300 text-base leading-relaxed font-sans max-w-2xl break-keep">

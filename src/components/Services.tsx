@@ -27,7 +27,7 @@ export default function Services() {
           <h2 className="text-sm font-mono uppercase tracking-[0.25em] text-amber-500 font-bold mb-4">
             주요 서비스 (Key Services)
           </h2>
-          <p className="text-3xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight">
+          <p className="text-2xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.3] sm:leading-tight break-keep">
             창작의 무게를 온전히 이해하는 우리의 책임
           </p>
           <p className="mt-4 text-slate-400 text-sm leading-relaxed break-keep">
@@ -106,7 +106,7 @@ export default function Services() {
               className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center"
             >
               {/* Detailed Text Block */}
-              <div className="lg:col-span-7 flex flex-col justify-center orders-2 lg:order-1">
+              <div className="lg:col-span-7 flex flex-col justify-center order-2 lg:order-1">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-500">
                     <IconComponent className="w-5 h-5" />

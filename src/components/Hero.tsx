@@ -42,7 +42,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="max-w-4xl text-4xl sm:text-5xl md:text-6xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.1] sm:leading-none text-balance break-keep"
+          className="max-w-4xl text-3xl sm:text-5xl md:text-6xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.2] sm:leading-[1.1] md:leading-none text-balance break-keep"
         >
           당신의 밤샘과 열정,
           <br className="hidden sm:block" /> 결코 외롭지 않도록.{" "}
@@ -103,15 +103,15 @@ export default function Hero() {
             창작자의 진정한 가치를 지켜내는 따뜻하고 투명한 관리
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 opacity-80 hover:opacity-100 transition-all duration-300">
-            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[13px] bg-slate-900 border border-slate-800 px-5 py-2.5 rounded-full shadow-sm">
+            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[12px] sm:text-[13px] bg-slate-900 border border-slate-800 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm w-full sm:w-auto justify-center">
               <Music className="w-4 h-4 text-orange-300" /> [Care] 작품을 소중히
               다루는 밀착 케어
             </span>
-            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[13px] bg-slate-900 border border-slate-800 px-5 py-2.5 rounded-full shadow-sm">
+            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[12px] sm:text-[13px] bg-slate-900 border border-slate-800 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm w-full sm:w-auto justify-center">
               <Shield className="w-4 h-4 text-emerald-500" /> [Trust] 정직하고
               기댈 수 있는 투명한 마음
             </span>
-            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[13px] bg-slate-900 border border-slate-800 px-5 py-2.5 rounded-full shadow-sm">
+            <span className="flex items-center gap-2 text-slate-300 font-sans font-bold tracking-wide text-[12px] sm:text-[13px] bg-slate-900 border border-slate-800 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm w-full sm:w-auto justify-center">
               <Globe className="w-4 h-4 text-orange-400" /> [Global Heart]
               한계를 넘어 빛나는 창작 가치
             </span>

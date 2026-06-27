@@ -30,7 +30,7 @@ export default function TrustSection() {
             <h2 className="text-xs font-mono uppercase tracking-[0.25em] text-amber-500 font-bold mb-4">
               운영 전략 (Operational Strategy)
             </h2>
-            <p className="text-3xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-tight break-keep">
+            <p className="text-2xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.3] sm:leading-tight break-keep">
               마음으로 이어지는
               <br />
               투명한 신뢰의 원칙

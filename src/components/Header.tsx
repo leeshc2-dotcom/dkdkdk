@@ -160,7 +160,7 @@ export default function Header() {
       {isOpen && (
         <div
           id="mobile-menu"
-          className="md:hidden bg-slate-950 border-b border-slate-800 py-4 px-4 sm:px-6 transition-all duration-300 animate-in fade-in slide-in-from-top-5"
+          className="md:hidden absolute top-full left-0 w-full bg-slate-950 border-b border-slate-800 py-4 px-4 sm:px-6 transition-all duration-300 animate-in fade-in slide-in-from-top-5 shadow-2xl h-[calc(100vh-80px)] overflow-y-auto"
         >
           <div className="flex flex-col gap-2">
             {navLinks.map((link) => (

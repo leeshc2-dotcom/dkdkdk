@@ -26,7 +26,7 @@ export default function About() {
               회사 소개 (About Us)
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.2] break-keep">
+            <h2 className="text-2xl sm:text-4xl font-sans font-extrabold text-slate-100 tracking-tight leading-[1.3] sm:leading-[1.2] break-keep">
               단순한 계약 대행이 아닌
               <br />{" "}
               <span className="text-orange-300">
