@@ -75,7 +75,7 @@ export default function TrustSection() {
                   </div>
 
                   {pillar.metric && (
-                    <div className="border-l-2 border-amber-500/30 pl-4 sm:pl-6 w-full xl:w-auto text-left shrink-0 mt-4 xl:mt-0 flex flex-col gap-1.5">
+                    <div className="border-l-2 border-amber-500/30 pl-4 sm:pl-6 w-full xl:w-[320px] text-left shrink-0 mt-4 xl:mt-0 flex flex-col gap-1.5">
                       <div className="font-sans font-black text-xl sm:text-2xl text-amber-400 tracking-tight whitespace-nowrap">
                         {pillar.metric}
                       </div>
